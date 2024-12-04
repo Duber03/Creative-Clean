@@ -1,0 +1,97 @@
+/* pagina 1 */
+
+.containerUno{
+    background-image: url(assets/bgHeader.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: black;
+    padding: 200px;
+}
+.containerUno h2{
+    color: orange;
+}
+.botonUno{
+    background-color: #FF9148;
+    color:white;
+    border-radius: 100%;
+    border: none;
+    height: 40px;
+    width: 10%;
+}
+
+/* pagina 2 */
+
+.containerDos{
+    display: flex;
+    align-items: center;
+    padding: 40px; 
+    flex-direction: row-reverse;
+    text-align: start;
+}
+.containerDos .texto2{
+    margin-right: 370px;
+}
+.containerDos h2{
+    color: orange;
+}
+.containerDos img{
+    width: 350px;
+}
+
+/* pagina 3 */
+
+.containerTres{
+    display: flex;
+    align-items: center;
+    padding: 40px; 
+    text-align: start;
+}
+.containerTres h2{
+    color: orange;
+}
+.containerTres .texto3{
+    margin-left: 370px;
+}
+
+/* pagina 4 */
+
+.containerCuatro{
+    background-image: url(assets/bgDown.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 250px;
+}
+.containerCuatro .texto4{
+    margin-right: 400px;
+}
+.containerCuatro h2{
+    color: orange;
+}
+
+/* pagina 5 */
+
+.containerCinco{
+    background-color: #FF9148;
+    background-size: cover;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+.footer-bottom { 
+    font-family: Arial, sans-serif; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 1rem 0; 
+    font-size: 0.7rem; 
+    background-color: #FF9148;
+    box-shadow: 0px -5px 10px rgba(190, 93, 37, 0.336);
+    position: relative;
+    flex-wrap: wrap;
+}
